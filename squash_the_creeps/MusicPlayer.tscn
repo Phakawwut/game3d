@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://khf0gkxrnylp"]
+
+[ext_resource type="AudioStream" uid="uid://cgiliy6cofqvs" path="res://Among-Us-Drip-Theme-Song-Original-_Among-Us-Trap-Remix-Amogus-Meme-Music_.ogg" id="1_1a72i"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_1a72i")
+volume_db = -6.749
+autoplay = true
+parameters/looping = true
