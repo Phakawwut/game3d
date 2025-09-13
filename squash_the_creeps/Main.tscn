@@ -199,14 +199,14 @@ text = "Press Space or Enter to retry"
 
 [node name="Label" type="Label" parent="UserInterface"]
 layout_mode = 0
-offset_left = 799.0
-offset_top = 24.0
-offset_right = 1109.0
-offset_bottom = 55.0
+offset_left = 672.0
+offset_top = 23.0
+offset_right = 1126.0
+offset_bottom = 54.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("9_03owx")
 theme_override_font_sizes/font_size = 23
-text = "663380286-9 ภควัต ประโสทะนัง"
+text = "663380286-9 Phakawwut Prasotanung"
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
